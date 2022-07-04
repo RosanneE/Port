@@ -5,14 +5,14 @@ import React from "react"
 const Header = (props) => {
     return (
         <div className="header">
-            <div class="heading row">
+            <div className="heading row">
                 <img
-                    class="portrait"
+                    className="portrait"
                     src="https://i.imgur.com/jL6XfVL.png"
                     alt="smirking red head"
                 />
-                <div class="introText">
-                    <h1>Rosanne Anderson:</h1>
+                <div className="introText">
+                    <h1 className="headingText">Rosanne Anderson:</h1>
                     <h2>Software Engineer - Web Developer - Problem Solver</h2>
                 </div>
             </div>
