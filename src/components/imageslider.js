@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Contact(){
+export default function Slider(){
     return(
-        <div className="contact">
+        <div className="slider">
             
         </div>
     )
