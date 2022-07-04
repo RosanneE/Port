@@ -21,6 +21,8 @@ body {
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
+  border-radius: 20px;
+  border-color: white;
 }
 
 .headingText{
