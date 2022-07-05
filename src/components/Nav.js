@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 const Nav = (props) => {
     return (
         <div className="navBar">
+            {/* <Link to='/Home'>Home</Link> */}
             <div>Home</div>
             <div>Projects</div>
             <div>Contact</div>
