@@ -1,3 +1,12 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
+*{
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+
 .baseCSS{
   align-items: center;
   border-color: #ff007f;
@@ -12,6 +21,15 @@ body {
   flex-direction: column;
   padding: 1% 2%;
   margin: 1% 2%;
+}
+.carouselElement{
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImg{
+  height: 500px;
 }
 
 .heading{
