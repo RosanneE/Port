@@ -32,3 +32,7 @@ export const PourData = [
         alt: 'Pour Choices Cocktail Update Page'
     }
 ]
+
+export default{
+    PourData
+}

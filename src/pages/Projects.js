@@ -1,4 +1,5 @@
-import ImageSlider from '../components/ImageSlider'
+import Carousel from '../components/Carousel'
+import PourData from '../components/PourData'
 
 const Projects = () => {
 
@@ -10,6 +11,7 @@ const Projects = () => {
                 <p>
                     Pour Choices is a website designed to help people find out what drinks they can make with their at home bar setup.  You can add items from your bar into a list that checks to see what drinks in it's database contain only the listed ingredients.  The app then presents a menue of cocktails you can make with what you already own.  It also allows you to browse the list of cocktails for inspiration and so you know what you need to buy to make any of the cocktails.
                 </p>
+                <Carousel slides={PourData}/>
                 <br/>
                 <p>
                     Pour Choices is a Full CRUD app, designed with Django (both front and backend).  It uses PostgreSQL as a database, and Python, HTML, and CSS programing languages. It has been deployed using Heroku.
