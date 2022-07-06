@@ -133,3 +133,12 @@ h2 a:hover {
   max-height: 300px;
   padding: 5px;
 }
+
+.resume{
+  align-items: center;
+}
+
+.resumeJPG {
+
+  width: 50%;
+}
