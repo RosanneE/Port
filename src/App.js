@@ -28,20 +28,3 @@ function App() {
 }
 
 export default App;
-
-
-{/* <Header/>
-<Nav/>
-<div className = "pageSections">
-  <Home/>
-  <About/>
-  <br/>
-  <br/>
-  <Skills/>
-  <br/>
-  <br/>
-  <Projects/>
-  <br/>
-  <br/>
-</div>
-<Footer/> */}
