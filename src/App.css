@@ -1,11 +1,11 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-/* 
+
 *{
   border-style: solid;
   border-width: 2px;
   border-color: blue;
-} */
+}
 
 .baseCSS{
   align-items: center;
@@ -65,20 +65,25 @@ body {
   align-items: center;
 }
 
+
 .nav {
-  color: #F9EBFE;
-  padding: 10px;
-  background-color: #23022E;
+  margin: 10px;
+  padding: 1%;
+  display: inline-flex;
+  background-color: #ff007f;
   border-radius: 4px;
   font-size: 20px;
-  margin: 2%;
 }
 
-.nav_bar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.navBar {
+  text-align: center;
+}
+
+.navBar a {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .portrait{
