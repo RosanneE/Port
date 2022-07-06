@@ -85,6 +85,7 @@ function Carousel({props}) {
     }
     
     return (
+
         <ImageGallery items = {images}/>
     )
 }

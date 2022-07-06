@@ -6,6 +6,9 @@
   border-width: 2px;
   border-color: blue;
 } */
+.about{
+  font-size: 20px;
+}
 
 .baseCSS{
   align-items: center;
@@ -69,11 +72,13 @@ h2 {
 
 h2 a {
   color: #ff007f;
-  
 }
 
-h2 a:hover {
+a:hover {
   color: #008a60;
+}
+a{
+  color:#ff007f
 }
 
 .headingText{
@@ -82,10 +87,13 @@ h2 a:hover {
   font-size: 50px;
   padding: 0% 1%;
 }
+
 .headingTextTwo{
   color: white;
   background-color: #ff007f;
   padding: 0% 1%;
+  text-align: left;
+  width: 80%;
 }
 
 .icon{
@@ -95,14 +103,6 @@ h2 a:hover {
 .images{
   height: 100px;
 }
-
-.introText {
-  color:white;
-  font-size: 20px;
-  padding: 2%;
-  align-items: center;
-}
-
 
 .nav {
   margin: 10px;
@@ -127,10 +127,14 @@ h2 a:hover {
   text-decoration: none;
 }
 
+p{
+  text-indent: 45px;
+}
+
 .portrait{
   border-radius: 100px;
   border-color: white;
-  max-height: 300px;
+  width: 20%;
   padding: 5px;
 }
 
@@ -139,6 +143,5 @@ h2 a:hover {
 }
 
 .resumeJPG {
-
   width: 50%;
 }

@@ -5,7 +5,7 @@ import React from "react"
 const Header = (props) => {
     return (
         <div className="header">
-            <div className="heading row">
+            <div className="heading">
                 <img
                     className="portrait"
                     src="https://i.imgur.com/jL6XfVL.png"
