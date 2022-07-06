@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
-import Home from './pages/Home';
+import Home from './pages/Resume';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Skills from './pages/Skills';
+import Resume from './pages/Resume';
 import Header from './components/Header';
 import Nav from './components/Nav'
 import Footer from './components/Footer';
@@ -16,11 +17,11 @@ function App() {
       <Header/>
       <Nav/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/skills' element={<Skills/>}/>
+        <Route path='/resume' element={<Resume/>}/>
       </Routes>
+      <br/>
       <Footer/>
     </div>
   );

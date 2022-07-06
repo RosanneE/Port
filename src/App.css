@@ -1,15 +1,15 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 
-*{
+/* *{
   border-style: solid;
   border-width: 2px;
   border-color: blue;
-}
+} */
 
 .baseCSS{
   align-items: center;
-  border-color: #ff007f;
+  border-color: #008a60;;
   border-radius: 20px;
   border-width: 3px;
   border-style: solid;
@@ -22,14 +22,32 @@ body {
   padding: 1% 2%;
   margin: 1% 2%;
 }
-.carouselElement{
-  width: 70%;
-  justify-content: center;
+
+.figs {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.sliderImg{
-  height: 500px;
+.footer {
+  background-color: #ff007f;
+ text-align: center;
+ text-decoration: none;
+ list-style: none;
+ padding: 5px;
+ border: white;
+ border-width: 3px;
+ border-style: solid;
+ border-radius: 20px;
+}
+
+.footer img{
+  border: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
 }
 
 .heading{
@@ -43,10 +61,30 @@ body {
   border-color: white;
 }
 
+h2 {
+  color: #008a60;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2 a {
+  color: #ff007f;
+  
+}
+
+h2 a:hover {
+  color: #008a60;
+}
+
 .headingText{
   color: white;
   background-color: #ff007f;
   font-size: 50px;
+  padding: 0% 1%;
+}
+.headingTextTwo{
+  color: white;
+  background-color: #ff007f;
   padding: 0% 1%;
 }
 
@@ -71,7 +109,10 @@ body {
   padding: 1%;
   display: inline-flex;
   background-color: #ff007f;
-  border-radius: 4px;
+  border: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
   font-size: 20px;
 }
 
@@ -91,10 +132,4 @@ body {
   border-color: white;
   max-height: 300px;
   padding: 5px;
-}
-
-.slider{
-  width: 20%;
-  justify-content: center;
-  align-items: center;
 }

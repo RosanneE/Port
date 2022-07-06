@@ -13,7 +13,7 @@ const Header = (props) => {
                 />
                 <div className="introText">
                     <h1 className="headingText">Rosanne Anderson:</h1>
-                    <h2>Software Engineer - Web Developer - Problem Solver</h2>
+                    <h2 className="headingTextTwo">Software Engineer - Web Developer - Problem Solver</h2>
                 </div>
             </div>
         </div>

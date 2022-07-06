@@ -4,7 +4,7 @@ const Projects = () => {
 
     return (
         <div>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <div class="projects baseCSS">
                 <h2><a href='https://pour-choices-app.herokuapp.com/drinks/'>Pour Choices</a></h2>
                 <p>
