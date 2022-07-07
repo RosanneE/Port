@@ -66,7 +66,7 @@ const Skills = () => {
                     <figure>
                         <img
                             class="icon"
-                            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png"
+                            src="https://cdn.freebiesupply.com/logos/thumbs/2x/django-logo.png"
                             alt="Django"
                         />
                         <figcaption>Django</figcaption>
