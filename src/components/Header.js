@@ -7,14 +7,10 @@ const Header = (props) => {
         <div className="header">
             <div className="heading">
                 <img
-                    className="portrait"
-                    src="https://i.imgur.com/jL6XfVL.png"
+                    className="pageHead"
+                    src="https://i.imgur.com/GxxDBVE.png"
                     alt="smirking red head"
                 />
-                <div className="introText">
-                    <h1 className="headingText">Rosanne Anderson:</h1>
-                    <h2 className="headingTextTwo">Software Engineer - Web Developer - Problem Solver</h2>
-                </div>
             </div>
         </div>
     )

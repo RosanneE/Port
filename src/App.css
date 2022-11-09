@@ -1,18 +1,18 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 
-/* *{
+ /* *{
   border-style: solid;
   border-width: 2px;
   border-color: blue;
-} */
+}  */
 .about{
   font-size: 20px;
 }
 
 .baseCSS{
   align-items: center;
-  border-color: #008a60;;
+  border-color: #9fc7aa;;
   border-radius: 20px;
   border-width: 3px;
   border-style: solid;
@@ -23,7 +23,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1% 2%;
-  margin: 1% 2%;
+  margin: 2% 8%;
+  background-color: #9fc7aa;
 }
 
 .figs {
@@ -35,7 +36,7 @@ body {
 }
 
 .footer {
-  background-color: red;
+  background-color: #ea43c4;
  text-align: center;
  text-decoration: none;
  list-style: none;
@@ -54,18 +55,13 @@ body {
 }
 
 .heading{
-  background-color: #ff007f;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
   align-items: center;
-  border-radius: 20px;
-  border-color: white;
+  text-align: center;
 }
 
 h2 {
-  color: #008a60;
+  color: #009fc7aa8a60;
   text-align: center;
   font-size: xx-large;
 }
@@ -75,25 +71,10 @@ h2 a {
 }
 
 a:hover {
-  color: #008a60;
+  color: #9fc7aa;
 }
 a{
   color:#ff007f
-}
-
-.headingText{
-  color: white;
-  background-color: #ff007f;
-  font-size: 50px;
-  padding: 0% 1%;
-}
-
-.headingTextTwo{
-  color: white;
-  background-color: #ff007f;
-  padding: 0% 1%;
-  text-align: left;
-  width: 80%;
 }
 
 .icon{
@@ -108,11 +89,7 @@ a{
   margin: 10px;
   padding: 1%;
   display: inline-flex;
-  background-color: #ff007f;
-  border: white;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 20px;
+  background-color: #9fc7aa;
   font-size: 20px;
 }
 
@@ -129,13 +106,6 @@ a{
 
 p{
   text-indent: 45px;
-}
-
-.portrait{
-  border-radius: 100px;
-  border-color: white;
-  width: 20%;
-  padding: 5px;
 }
 
 .resume{
