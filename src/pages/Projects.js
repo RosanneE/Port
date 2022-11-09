@@ -6,7 +6,7 @@ const Projects = () => {
         <div>
             <h2>Projects</h2>
             <div class="projects baseCSS">
-                <h2><a href='https://pour-choices-app.herokuapp.com/drinks/'>Pour Choices</a></h2>
+                <h2><a className = 'projLink' href='https://pour-choices-app.herokuapp.com/drinks/'>Pour Choices</a></h2>
                 <p>
                     Pour Choices is a website designed to help people find out what drinks they can make with their at home bar setup.  You can add items from your bar into a list that checks to see what drinks in it's database contain only the listed ingredients.  The app then presents a menue of cocktails you can make with what you already own.  It also allows you to browse the list of cocktails for inspiration and so you know what you need to buy to make any of the cocktails.
                 </p>
@@ -21,7 +21,7 @@ const Projects = () => {
             <br />
             <br />
             <div class="projects baseCSS">
-                <h2><a href='https://subtle-profiterole-48ae37.netlify.app/'>Hues Your Own Adventure</a></h2>
+                <h2><a className = 'projLink' href='https://subtle-profiterole-48ae37.netlify.app/'>Hues Your Own Adventure</a></h2>
                 <p>
                     I designed this website to help people find and select colors to use in web design, art projects, and any other computer color needs.  I used React to create interactive components that allow users to select a color, then expiriment with tone, tint, hue, and contrast to determine what RGB or Hex Code works best for the projects they are working on.
                 </p>
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <br /> <br />
             <div class="projects baseCSS">
-                <h2><a href='https://glacial-atoll-73729.herokuapp.com/'>R&#38;D Books</a></h2>
+                <h2><a className = 'projLink'  href='https://glacial-atoll-73729.herokuapp.com/'>R&#38;D Books</a></h2>
                 <p>
                     This website was designed to allow people to browse books by author, title, and genre.  The idea was to make a version of an existing website and add our own spin on it.  My partner and I chose to create a book store - if it was a good enough start for Amazon, we figured we would follow in those footsteps.  we acheived MVP for the project, but still hope to add additional functions such as user logins.
                 </p>

@@ -12,7 +12,7 @@
 
 .baseCSS{
   align-items: center;
-  border-color: #9fc7aa;;
+  border-color: white;;
   border-radius: 20px;
   border-width: 3px;
   border-style: solid;
@@ -36,7 +36,6 @@ body {
 }
 
 .footer {
-  background-color: #ea43c4;
  text-align: center;
  text-decoration: none;
  list-style: none;
@@ -55,26 +54,35 @@ body {
 }
 
 .heading{
+  background-color: #d49fff;
   width: 100%;
+  height: auto;
   align-items: center;
   text-align: center;
 }
 
 h2 {
-  color: #009fc7aa8a60;
+  color: black;
   text-align: center;
   font-size: xx-large;
 }
 
 h2 a {
-  color: #ff007f;
+  color: #233059;;
+  background-color: white;
 }
 
 a:hover {
-  color: #9fc7aa;
+  color: #d49fff;
 }
 a{
-  color:#ff007f
+  color: #233059;
+  background-color: white;
+  padding: 5px;
+  border: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 .icon{
@@ -89,7 +97,7 @@ a{
   margin: 10px;
   padding: 1%;
   display: inline-flex;
-  background-color: #9fc7aa;
+  background-color: white;
   font-size: 20px;
 }
 
@@ -100,12 +108,27 @@ a{
 .navBar a {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: #9fc7aa;
   text-decoration: none;
+  border: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 p{
   text-indent: 45px;
+}
+
+.pageHead{
+  width: 100%;
+}
+.projLink {
+  padding: 5px;
+  border: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 .resume{
